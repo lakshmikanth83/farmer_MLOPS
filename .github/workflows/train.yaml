@@ -22,4 +22,6 @@ jobs:
           # Add figure to the report
           echo "## Validating results by region"
           cml send-comment report.md
+          
+          echo "## End"
         
